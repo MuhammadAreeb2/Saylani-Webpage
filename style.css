@@ -68,13 +68,16 @@ section.what_sec {
     background: #cdcdcd45;
     overflow: auto;
 }
+.gallery_main{
+    padding: 100px;
+}
 .main_intro h1 ,
 .main_what h1,
 .gallery_main h1{
     color: #427900;
     text-align: center;
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .main_intro span ,
 .main_what span,
@@ -139,6 +142,7 @@ section.what_sec {
     }
     .link_button{
         padding: 0px 0px;
+
     }
     .project_icon{
         width: 40px;
@@ -167,6 +171,8 @@ section.what_sec {
         float: left;
      
     }
+    .servicez{height: auto;
+    }
     .col-3.box {
         width: 90%;
         text-align: center;
@@ -179,7 +185,13 @@ section.what_sec {
         width: 30%;
         float: left;
     }
+    
 }
+@media screen and (max-width:700px){
+.img-gallery{
+    position: absolute;
+    left: 0;
+}}
 .col-3.box {
     text-align: center;
     width: 40%;
@@ -281,20 +293,20 @@ position: relative;
 /*  */
 .gallery{
     text-align: center;
-    margin: auto;
-    display: block;
+    /* margin: auto;
+    display: block; */
     /* float: left; */
 }
 .gallery img {
-    width: 290px;
+    width: 250px;
 }
 section.gallery_sec {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 100px 0px;
 }
 .footer_sec {
     background-color: rgb(37, 39, 46) !important;
-    overflow: auto;
+    overflow: hidden;
     color: #fff;
     padding: 50px 0px;
     text-align: center;
@@ -368,6 +380,11 @@ section.gallery_sec {
     }
     .navbar-text{
         text-align: center;
+        margin: auto;
+    }
+    .navbar-text>p{
+        text-align: center;
+        margin: auto;
     }
     .link-button{
         
